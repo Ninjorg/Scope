@@ -16,7 +16,7 @@ function fetchEmail(firstName, lastName, emailDomain) {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': 'c753760241msh4aafaa1fda97f81p1b0a40jsnf163a2a6b34f', // Replace with your actual API key
+            'x-rapidapi-key': 'your-key-here', // Replace with your actual API key
             'x-rapidapi-host': 'email-finder4.p.rapidapi.com'
         }
     };

@@ -172,7 +172,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 2em auto;
     max-width: 800px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .cta-button, #find-email {

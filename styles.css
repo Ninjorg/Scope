@@ -176,7 +176,7 @@ body {
 }
 
 .cta-button, #find-email {
-    background-color: #007BFF;
+    background-color: #ffc400;
     color: #fff;
     padding: 0.5em 1em;
     border: none;
@@ -186,7 +186,9 @@ body {
 }
 
 .cta-button:hover, #find-email:hover {
-    background-color: #0056b3;
+    background-color: #e77700;
+    transform: scale(1.2);
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .email-finder-form {
@@ -203,7 +205,7 @@ body {
 
 .email-finder-form input {
     padding: 0.5em;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 100%;
     max-width: 400px;

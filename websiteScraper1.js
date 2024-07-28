@@ -10,7 +10,7 @@ function findEmail() {
     fetch(url, {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': 'c753760241msh4aafaa1fda97f81p1b0a40jsnf163a2a6b34f',
+            'x-rapidapi-key': 'your-key-here',
             'x-rapidapi-host': 'website-contacts-scraper.p.rapidapi.com'
         }
     })

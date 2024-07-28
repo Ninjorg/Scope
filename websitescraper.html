@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Finder - Scope</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Scope</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="email-finder.html">Email Finder</a></li>
+                <li><a href="websitescraper.html">Website Scrapers</a></li>
+                <li><a href="#">LinkedIn Connector</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="email-finder-section">
+            <h1>Website Scraper</h1>
+            <p>Get all contact info associatd with a domain.</p>
+            <div class="email-finder-form">
+                <label for="email-domain">Website Link:</label>
+                <input type="text" id="email-domain" name="email-domain" placeholder="example.com" required>
+                
+                <button id="find-email" onclick="findEmail()">Find Info</button>
+            </div>
+            <div id="email-result"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ronit Certified Fresh</p>
+    </footer>
+    <script src="websiteScraper1.js"></script>
+</body>
+</html>

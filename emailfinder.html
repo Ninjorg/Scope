@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Finder - Scope</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Scope</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="email-finder.html">Email Finder</a></li>
+                <li><a href="websitescraper.html">Website Scrapers</a></li>
+                <li><a href="#">LinkedIn Connector</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="email-finder-section">
+            <h1>Email Finder</h1>
+            <p>Locate professional email addresses with ease.</p>
+            <div class="email-finder-form">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                
+                <label for="email-domain">Email Domain:</label>
+                <input type="text" id="email-domain" name="email-domain" placeholder="example.com" required>
+                
+                <button id="find-email" onclick="findEmail()">Find Email</button>
+            </div>
+            <div id="email-result"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ronit Certified Fresh</p>
+    </footer>
+    <script src="emailfinder1.js"></script>
+</body>
+</html>
